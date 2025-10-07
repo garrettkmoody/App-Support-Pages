@@ -1,7 +1,8 @@
 .support-container {
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 2rem;
+  min-height: 100vh;
 }
 
 .breadcrumb {
@@ -19,80 +20,53 @@
   text-decoration: underline;
 }
 
-.support-header {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.support-header h1 {
-  font-size: 2.5rem;
-  color: #333;
-  margin-bottom: 0.5rem;
-}
-
 .support-content {
   background: white;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 4rem 3rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.support-section {
-  margin-bottom: 3rem;
-}
-
-.support-section:last-child {
-  margin-bottom: 0;
-}
-
-.support-section h2 {
-  font-size: 1.8rem;
-  color: #333;
+.app-icon-large {
+  font-size: 6rem;
   margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #007AFF;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
 }
 
-.support-section p {
+.support-content h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.support-message {
+  font-size: 1.2rem;
   color: #666;
   line-height: 1.6;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+  max-width: 500px;
 }
 
-.support-section ul {
-  padding-left: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.support-section li {
-  color: #666;
-  line-height: 1.8;
-  margin-bottom: 0.5rem;
-}
-
-.faq-item {
-  margin-bottom: 2rem;
-}
-
-.faq-item h3 {
+.contact-email {
   font-size: 1.3rem;
-  color: #333;
-  margin-bottom: 0.5rem;
-}
-
-.faq-item p {
-  color: #666;
-  line-height: 1.6;
-}
-
-.contact-info {
-  background: #f8f9fa;
+  color: #007AFF;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background: #f0f8ff;
   border-radius: 8px;
-  padding: 1.5rem;
-  margin-top: 1rem;
+  transition: all 0.2s;
+  font-weight: 500;
 }
 
-.contact-info p {
-  margin-bottom: 0.5rem;
+.contact-email:hover {
+  background: #007AFF;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
 }
 
