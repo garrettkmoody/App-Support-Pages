@@ -33,9 +33,11 @@
 }
 
 .app-icon-large {
-  font-size: 6rem;
+  width: 150px;
+  height: 150px;
   margin-bottom: 1rem;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+  border-radius: 20%;
 }
 
 .support-content h1 {

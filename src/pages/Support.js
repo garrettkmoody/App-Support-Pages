@@ -18,9 +18,11 @@ function Support() {
       </nav>
       
       <div className="support-content">
-        <div className="app-icon-large">
-          ✈️
-        </div>
+        <img 
+          src="/plane2.png" 
+          alt={`${displayName} App Icon`} 
+          className="app-icon-large"
+        />
         <h1>{displayName}</h1>
         <p className="support-message">
           I'd love to hear your feedback and help with any questions you might have!
