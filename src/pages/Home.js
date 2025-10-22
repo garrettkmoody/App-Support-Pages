@@ -9,6 +9,12 @@ function Home() {
       slug: 'airplane-tracker',
       description: 'Track flights in real-time',
       icon: '✈️'
+    },
+    {
+      name: 'Roamio',
+      slug: 'roamio',
+      description: 'Travel Tracker',
+      icon: '🌍'
     }
   ];
 

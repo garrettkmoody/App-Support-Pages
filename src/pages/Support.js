@@ -11,6 +11,18 @@ function Support() {
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 
+  // Select the appropriate icon based on the app
+  const getAppIcon = () => {
+    switch(appName) {
+      case 'roamio':
+        return '/roamio.png';
+      case 'airplane-tracker':
+        return '/plane2.png';
+      default:
+        return '/plane2.png';
+    }
+  };
+
   return (
     <div className="support-container">
       <nav className="breadcrumb">
@@ -19,7 +31,7 @@ function Support() {
       
       <div className="support-content">
         <img 
-          src="/plane2.png" 
+          src={getAppIcon()} 
           alt={`${displayName} App Icon`} 
           className="app-icon-large"
         />
