@@ -15,6 +15,12 @@ function Home() {
       slug: 'roamio',
       description: 'Travel Tracker',
       icon: '🌍'
+    },
+    {
+      name: 'Insider Signal',
+      slug: 'insider-signal',
+      description: 'Track insider trading signals',
+      icon: '📊'
     }
   ];
 

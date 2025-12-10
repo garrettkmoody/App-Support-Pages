@@ -18,6 +18,8 @@ function Support() {
         return '/roamio.png';
       case 'airplane-tracker':
         return '/plane2.png';
+      case 'insider-signal':
+        return '/insidersignallogo.png';
       default:
         return '/plane2.png';
     }
